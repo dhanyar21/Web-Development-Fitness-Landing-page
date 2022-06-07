@@ -1,0 +1,155 @@
+body {
+  font-family: "Tiro Girmukhi";
+}
+
+#title {
+  background-color: #27282A;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Tiro Girmukhi";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Tiro Girmukhi";
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Tiro Girmukhi";
+  font-size: 1.5rem;
+}
+h5 {
+  font-family: "Tiro Girmukhi";
+  color:#73726F;
+}
+
+p {
+  color: #737476;
+}
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.row {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+  font-family: "Quantico";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 90%;
+  height: 100%;
+  padding-left: 40px;
+    }
+
+#features {
+  padding: 7% 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #D0D5D9;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color:#4A4F59;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #8C6258;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #8C6258;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  padding-top: 2%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #4A4F59;
+  padding: 7% 20%;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.cta-heading {
+  font-family: "Tiro Girmukhi";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+#footer{
+  padding: 7% 10%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: center;
+  background-color: #D0D5D9;
+}
+.social-icon{
+  margin: 10px 20px;
+}
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
